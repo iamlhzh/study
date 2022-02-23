@@ -43,55 +43,95 @@ import java.util.Map;
  */
 public class Solution_No_4 {
     public static void main(String[] args) {
-        int[] nums1 = {1,3,4,5,6,7,8,9};
-        int []nums2 = {2};
+        int[] nums1 = {1};
+        int []nums2 = {};
         double medianSortedArrays = findMedianSortedArrays(nums1, nums2);
         System.out.println(medianSortedArrays);
     }
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        double result = 0d;
+        double result = 0.0;
         int i1 = nums1.length;
         int i2 = nums2.length;
-        int index = (i1+i2)/2+1;
-        boolean flag = (i1+i2)%2==0;
-        int k = 0;
-        int i =0;
-        int j=0;
-        int littler;
-        for (; i < i1; i++) {
-            if(j<i2){
-                for (; j < i2; j++) {
-                    if(i<i1){
-                        if(nums1[i]<nums2[j]){
-                            littler = nums1[i];
-                            k++;
-                            if(index==k){
-                                return littler;
-                            }
-                            break;
-                        }else{
-                            littler = nums2[j];
-                            k++;
-                            if(index==k){
-                                return littler;
-                            }
-                        }
-
-                    }else{
-                        littler = nums2[j];
-                        k++;
-                        if(index==k){
-                            return littler;
-                        }
+        int sum = i1 + i2;
+        int index = 0;
+        int mid1 = 0;
+        int mid2 = 0;
+        int mid3 = 0;
+        int index1 = 0;
+        int index2 = 0;
+        int letter = 0;
+        boolean flag = (sum) %2==0;
+        if(flag){
+            index1 = (sum) /2;
+            index2 = index1+1;
+        }else{
+            index = (sum) /2+1;
+        }
+        int a = 0;
+        int b = 0;
+        for(int point = 1;point<=sum;point++){
+            if(a<i1&&b<i2){
+                if(nums1[a]<nums2[b]){
+                    letter = nums1[a];
+                    a++;
+                }else{
+                    letter = nums2[b];
+                    b++;
+                }
+                if(flag){
+                    if(point==index1){
+                        mid2 = letter;
+                    }
+                    if(point==index2){
+                        mid3=letter;
+                        break;
+                    }
+                }else{
+                    if(point==index){
+                        mid1=letter;
+                        break;
                     }
                 }
-            }else{
-                littler = nums1[i];
-                k++;
-                if(index==k){
-                    return littler;
+            }else if(a>=i1&&b<i2){
+                letter = nums2[b];
+                b++;
+                if(flag){
+                    if(point==index1){
+                        mid2 = letter;
+                    }
+                    if(point==index2){
+                        mid3=letter;
+                        break;
+                    }
+                }else{
+                    if(point==index){
+                        mid1=letter;
+                        break;
+                    }
+                }
+            }else if(a<i1&&b>=i2){
+                letter = nums1[a];
+                a++;
+                if(flag){
+                    if(point==index1){
+                        mid2 = letter;
+                    }
+                    if(point==index2){
+                        mid3=letter;
+                        break;
+                    }
+                }else{
+                    if(point==index){
+                        mid1=letter;
+                        break;
+                    }
                 }
             }
+        }
+        if (flag){
+            result = (mid2+mid3)/2d;
+        }else{
+            result =mid1;
         }
         return result;
     }
