@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb27b720-f454-48f0-94b4-02f006b79574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_5/Solution_No_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_6/Solution_No_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,8 +14,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_5/Solution_No_5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_6/Solution_No_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/constructor/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/overriding/FuLei.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/overriding/ZiLei.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/constructor/FuLei.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/overriding/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/overriding/ZiLeiOverriding.java" />
@@ -101,6 +152,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_3/Solution_No_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/beaninit/BeanMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_5/Solution_No_5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_5/Solution_No_6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_6/Solution_No_6.java" />
       </list>
     </option>
   </component>
@@ -129,13 +183,18 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-179" />
-    <option name="y" value="155" />
+    <option name="x" value="-184" />
+    <option name="y" value="66" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -189,15 +248,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="beaninit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,7 +258,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="no_3" type="462c0819:PsiDirectoryNode" />
+              <item name="no_5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -218,26 +268,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="no_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="no_6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1645154679236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1645672025938" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -258,7 +289,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -268,6 +299,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lhzh.study.leetcode.solution.no_5" />
       <recent name="com.lhzh.study.leetcode.solution.no_4" />
       <recent name="com.lhzh.study.leetcode.solution.no_3" />
       <recent name="com.lhzh.study.polymorphism" />
@@ -289,26 +321,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution_No_4">
+  <component name="RunManager" selected="Application.Solution_No_6">
     <configuration name="BeanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lhzh.study.beaninit.BeanMain" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lhzh.study.beaninit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution_No_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhzh.study.leetcode.solution.no_2.Solution_No_2" />
-      <module name="study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lhzh.study.leetcode.solution.no_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +361,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhzh.study.wordstudy.WordStudy" />
+    <configuration name="Solution_No_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhzh.study.leetcode.solution.no_5.Solution_No_5" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lhzh.study.wordstudy.*" />
+          <option name="PATTERN" value="com.lhzh.study.leetcode.solution.no_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution_No_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhzh.study.leetcode.solution.no_6.Solution_No_6" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhzh.study.leetcode.solution.no_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +388,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WordStudy" />
-      <item itemvalue="Application.Solution_No_2" />
       <item itemvalue="Application.Solution_No_3" />
       <item itemvalue="Application.BeanMain" />
       <item itemvalue="Application.Solution_No_4" />
+      <item itemvalue="Application.Solution_No_5" />
+      <item itemvalue="Application.Solution_No_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution_No_6" />
+        <item itemvalue="Application.Solution_No_5" />
         <item itemvalue="Application.Solution_No_4" />
         <item itemvalue="Application.BeanMain" />
         <item itemvalue="Application.Solution_No_3" />
-        <item itemvalue="Application.Solution_No_2" />
-        <item itemvalue="Application.WordStudy" />
       </list>
     </recent_temporary>
   </component>
@@ -442,6 +474,12 @@
       <workItem from="1645062003210" duration="1226000" />
       <workItem from="1645148400529" duration="1399000" />
       <workItem from="1645150746956" duration="4415000" />
+      <workItem from="1645598914367" duration="1479000" />
+      <workItem from="1645601840069" duration="414000" />
+      <workItem from="1645602992122" duration="319000" />
+      <workItem from="1645603406990" duration="3497000" />
+      <workItem from="1645667049425" duration="724000" />
+      <workItem from="1645669056395" duration="3435000" />
     </task>
     <servers />
   </component>
@@ -463,12 +501,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127015000" />
+    <option name="totallyTimeSpent" value="136883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18900804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,8 +515,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24787535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15722379" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23087819" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23796034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -486,14 +524,14 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3649222" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.36402267" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.23659517" />
@@ -558,27 +596,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/multithread/runnable/MyRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ChengYuanNeibuClassStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/multithread/lock/MyLockThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/multithread/lock/MyLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -846,13 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar!/org/openxmlformats/schemas/wordprocessingml/x2006/main/STBorder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -874,9 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,16 +915,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.12/spring-core-5.3.12.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_5/Solution_No_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_4/Solution_No_4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhzh/study/leetcode/solution/no_6/Solution_No_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
